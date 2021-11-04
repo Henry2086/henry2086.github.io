@@ -1,0 +1,159 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* adding background image to site header and styling it */
+h1 {
+    background-image: url("/midterm/images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: auto;
+    padding-top: 270px;
+    padding-bottom:;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+   
+}
+/* navbar styling */
+.navbar {
+text-align: center;
+text-transform: uppercase;
+}
+
+/* styling each navbar option  */
+#home{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;   
+    font-size: 30px;
+}
+#story{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;    
+    font-size: 30px;
+}
+#contact{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;       
+    font-size: 30px;
+}
+
+/* setting background colour and overal font*/
+body{
+    background-color:#aad4cf ;
+    font-family: 'arial';
+}
+/* setting seccondary background colour */
+article{
+    background-color: #c9f5f0;
+    height: 1010px;
+    width: 1000px;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 1.75%;
+    }
+
+/* heading 2 styling */
+h2{
+    color: black;
+    font-size: 42px;
+    padding-top:35px;
+    padding-bottom: 5px;
+}
+/* sizing image and formatting it */
+img{
+    width: 390px;
+    padding-right: 10px;  
+    padding-top: 10px;
+    float: left;
+}
+/* formatting text aroun the image */
+.pone{
+    padding-top: 8px;
+    line-height: 1.5rem;
+    padding-bottom: 10px;
+}
+/* styling header 3 */
+h3{
+    font-size: 35px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+/* styling the list about starfish facts */
+ul{
+    list-style-type: square;
+    padding-left: 22px;
+}
+/* putting black outline around contact info */
+#textboxes{    
+    border: 2px solid black;  
+    padding:10px;
+}
+/* adjusting spacing/padding around fields to fill out */
+.question{
+    padding-left: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* adjusting textbox sizes */
+#email{
+    width: 900px;  
+}
+#fullname{
+    width: 900px;
+}
+#yourmessage{
+    width: 900px;
+    height: 60px;
+}
+footer{
+    text-align: right;
+    padding: 10px;px;
+}
